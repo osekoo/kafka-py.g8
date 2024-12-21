@@ -39,7 +39,7 @@ Ensure the following tools are installed on your system:
 
 
 
-## Setting up Kafka using Docker
+## Setting up Kafka
 
 - **Start Kafka Broker:**  
   From a terminal run the following command:
@@ -59,7 +59,10 @@ Ensure the following tools are installed on your system:
   kafka-stop
   ```
 
-
+## Install requirements
+```bash
+pip install -r requirements.txt
+```
 
 ## Example: Kafka Producer (`producer.py`)
 This example sends a series of numbers as messages to a Kafka topic.
