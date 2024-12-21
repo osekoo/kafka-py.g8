@@ -1,0 +1,3 @@
+@echo off
+echo Stopping Kafka broker...
+docker-compose down

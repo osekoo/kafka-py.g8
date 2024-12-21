@@ -1,0 +1,3 @@
+@echo off
+echo Starting Kafka broker...
+docker-compose up -d
