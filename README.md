@@ -61,7 +61,7 @@ Ensure the following tools are installed on your system:
 
 ## Install requirements
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Example: Kafka Producer (`producer.py`)
