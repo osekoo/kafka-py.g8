@@ -1,6 +1,6 @@
 version: '3.5'
 networks:
-  kafka-network:
+  local-network:
     name: local-network
     
 volumes:
