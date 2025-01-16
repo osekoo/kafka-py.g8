@@ -50,7 +50,7 @@ Ensure the following tools are installed on your system:
 - **Kafka Dashboard**  
   From web browser:
   ```
-  http://localhost:9094
+  http://localhost:9000
   ```
   
 - **Stop Kafka Broker:**  
