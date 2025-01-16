@@ -26,15 +26,6 @@ Ensure the following tools are installed on your system:
    - Ubuntu/Debian: `sudo apt update && sudo apt install docker.io`
    - Fedora/Red Hat: `sudo dnf install docker`
    - Arch: `sudo pacman -S docker`
-
-3. **Docker Compose**
-   - Docker Compose is included by default with Docker Desktop on Windows and macOS.
-   - For Linux:
-     - Follow the official guide to [install Docker Compose on Linux](https://docs.docker.com/compose/install/linux/).
-     - Alternatively, you can install it manually:
-       ```bash
-       sudo curl -L "https://github.com/docker/compose/releases/download/2.x.x/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-       sudo chmod +x /usr/local/bin/docker-compose
        ```
 
 
