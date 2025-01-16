@@ -1,3 +1,3 @@
 @echo off
-echo Stopping Kafka broker...
-docker-compose down
+echo "Stopping Kafka broker..."
+docker rm -f kafka-broker
