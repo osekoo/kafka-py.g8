@@ -1,10 +1,12 @@
 import json
 import time
+
 from kafka import KafkaProducer
 
 # Configuration
 TOPIC_NAME = 'example_topic'
 BROKER = 'localhost:9092'
+
 
 def data_serializer(data):
     """
@@ -13,6 +15,7 @@ def data_serializer(data):
     :return: JSON data.
     """
     return json.dumps(data).encode('utf-8')
+
 
 def send(producer, size):
     """
@@ -27,6 +30,7 @@ def send(producer, size):
         time.sleep(1)  # Pause between messages
 
     producer.flush()
+
 
 if __name__ == "__main__":
     producer = KafkaProducer(
